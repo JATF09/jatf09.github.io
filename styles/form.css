@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+header{
+    background-color: aqua;
+    height: auto;
+}
+
+
+header section{
+    background-color: #3B4248;
+    height: 300px;
+}
+
+#divpadre{
+    display: flex;
+}
+
+/*#s1, #s2{
+    flex: 1;
+} hace que los 2 elementos ocupen la mitad cada uno*/
+
+/*seccion 1*/
+#s1{
+    background-color: aquamarine;
+    width: 30%;
+    height: 1000px;
+    
+}
+
+/*seccion 2*/
+#s2{
+    background-color: aqua;
+    width: 70%;
+    height: 1000px;
+}
+
+footer{
+    color: #ffff;
+    height: 100px;
+}
+/*------------------BARRA NAVEGADOR--------------------*/
+header nav{
+    background-color: #2F353A;
+    height: 70px;
+    display: flex;/*flexbox. hace que la "caja" sea flexible, mobible y manipulable*/
+    justify-content: center;
+}
+
+#barra_nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: right; /*centro orizontal*/
+    list-style: none;
+    width: 80%;
+    height: 100%;
+    align-items: center; /*centro vertical*/
+}
+
+#barra_nav li{
+    background-color: transparent;
+}
+
+#barra_nav li a{
+    text-decoration: none;
+    color: #7C7F83;
+    margin: 30px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#barra_nav li a:hover{
+    color: white;
+}
+
+#barra_nav li input{
+    all: unset;
+    width: 200px;
+    height: 30px;
+    background-color: #262A2E;
+    border-radius: 10px 0px 0px 10px;
+    text-decoration: none;
+    padding-left: 15px;
+    outline: none;
+    color: #9DA1A4;
+}
+
+#barra_nav li input:focus{ /*focus. pseudoclase para sentrar la atencion en un ocjeto clickeado*/
+    background-color: #1C2023;
+}
+
+#barra_nav button{
+    all: unset;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(79, 79, 79);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}#barra_nav button svg{
+    fill: aliceblue;
+    
+}
+/*------------------BARRA NAVEGADOR--------------------*/

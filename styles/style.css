@@ -1,0 +1,72 @@
+/*p,li,h1 { /todos los parrafos de color rojo /
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+  }/Selector, Declaracion, Propiedades y Valor de la propiedad/
+*/
+html {
+  font-size: 10px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;/*Interlineado*/
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #00539f;
+}
+
+body {
+  width: 600px; /*ancho*/
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0   20px  20px  20px;
+  /*      TOP|RIGTH|BOTTON|LEFT   */
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+  /*TEXT-SHADOW
+  El primer valor en píxeles asigna el desplazamiento horizontal
+  El segundo valor en píxeles asigna el desplazamiento vertical
+  El tercer valor en píxeles asigna radio de desenfoque
+  El cuarto valor asigna el color base de la sombra.
+  */
+}
+
+img {
+  display: block;
+  /*El elemento <body> es un elemento en nivel de bloque (block-level), 
+  lo que significa que tomará espacio en la página y que puede tener otros 
+  valores de espacio aplicables como margen. Las imágenes, por otra parte, 
+  son elementos inline, lo que quiere decir que no puedes aplicarles 
+  márgenes, debes dar a la imagen un comportamiento de block-level usando 
+  display: block;.  */
+  margin: 0 auto;
+  width: 500px;
+}
+
+#paginaPrin a{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: red;
+  color: aliceblue;
+  text-decoration: none;
+}
